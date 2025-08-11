@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartPro - Premium Smartwatch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="watch.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">SmartPro</div>
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="buy-btn">Buy Now</button>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Experience the Future on Your Wrist</h1>
+    <p>SmartPro Watch – Where innovation meets elegance. Track your health, calls, and more!</p>
+    <button class="cta-btn">Get Yours Today</button>
+  </div>
+  <div class="hero-image">
+    <img src="watch.jpg" alt="Smartwatch">
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="feature">
+    <img src="HeatRate.jpg" alt="Heart Rate">
+    <h3>Heart Rate Monitor</h3>
+    <p>Stay updated on your heart health 24/7.</p>
+  </div>
+  <div class="feature">
+    <img src="SmartNotification.png" alt="Notifications">
+    <h3>Smart Notifications</h3>
+    <p>Get calls, messages, and app alerts instantly.</p>
+  </div>
+  <div class="feature">
+    <img src="7day%20battery.jpg" alt="Battery">
+    <h3>7-Day Battery</h3>
+    <p>Long-lasting power for your busy schedule.</p>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <h2>Choose Your Plan</h2>
+  <div class="price-card">
+    <h3>SmartPro Watch</h3>
+    <p class="price">$199</p>
+    <p>Free shipping worldwide</p>
+    <button class="buy-now">Buy Now</button>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial">
+    <img src="01.png.png" alt="Customer">
+    <p>"This watch has completely changed the way I track my health. Absolutely love it!"</p>
+    <strong>- Sarah K.</strong>
+  </div>
+  <div class="testimonial">
+    <img src="03.png" alt="Customer">
+    <p>"Battery life is amazing, and the design is stunning. Worth every penny!"</p>
+    <strong>- Mike D.</strong>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h4>Is SmartPro waterproof?</h4>
+    <p>Yes! It's water-resistant up to 50 meters.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Does it work with iOS and Android?</h4>
+    <p>Yes, SmartPro is compatible with both iOS and Android devices.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message" rows="5"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 SmartPro Inc. All rights reserved.</p>
+  <div class="social">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-item h4').forEach(h4=>{
+    h4.addEventListener('click',()=>{
+      const p=h4.nextElementSibling;
+      p.style.display=p.style.display==='block'?'none':'block';
+    });
+  });
+</script>
+
+</body>
+</html>
